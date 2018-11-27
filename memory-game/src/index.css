@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #66cdaa;
+  color: purple;
+  display: flex;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.container {
+  width: 600px;
+  background: #4682b4;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.boxes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}

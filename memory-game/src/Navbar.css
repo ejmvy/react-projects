@@ -1,0 +1,33 @@
+
+.heading {
+    background: navy;
+    /* width: 100%; */
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.link li {
+    list-style: none;
+}
+
+.link li:hover {
+    cursor: pointer;
+    color: #ccc;
+}
+
+.score {
+    background: #66cdaa;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line {
+    display: flex;
+}
